@@ -1,5 +1,5 @@
 numpy
-pandas
+pandas==1.5
 matplotlib
 seaborn
 reportlab==3.6.6
