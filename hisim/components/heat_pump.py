@@ -433,8 +433,8 @@ class HeatPumpController(cp.Component):
     @utils.measure_execution_time
     def __init__(self,
                  my_simulation_parameters: SimulationParameters,
-        t_air_heating: float = 18.0,
-                 t_air_cooling: float = 26.0,
+        t_air_heating: float = 20.0,
+                 t_air_cooling: float = 30.0,
                  offset: float = 0.0,
                  mode=1):
         super().__init__("HeatPumpController", my_simulation_parameters=my_simulation_parameters)
